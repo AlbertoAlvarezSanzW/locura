@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/convertir"
+        android:icon="@drawable/baseline_3d_rotation_black_18dp"
+        android:title="@string/convertir" />
+    <item
+        android:id="@+id/persona"
+        android:icon="@drawable/baseline_account_circle_black_18dp"
+        android:title="@string/persona" />
+    <item
+        android:id="@+id/ok"
+        android:icon="@drawable/baseline_add_task_black_18dp"
+        android:title="@string/ok" />
+    <item
+        android:icon="@drawable/baseline_android_black_18dp"
+        android:title="@string/andro" />
+    <item
+        android:icon="@drawable/baseline_aspect_ratio_black_18dp"
+        android:title="@string/ajustar" />
+</menu>
