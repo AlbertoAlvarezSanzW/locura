@@ -25,46 +25,54 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="376dp"
-                android:orientation="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-
-                android:layout_margin="15dp"
-                >
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
 
                 <ImageView
-                    android:layout_width="match_parent"
+                    android:layout_width="250dp"
                     android:layout_height="225dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/george" />
+                    android:layout_gravity="left"
+                    android:background="@mipmap/ic_launcher_foreground"
+                    android:layout_margin="15dp"/>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="20dp"
+
+                    android:layout_gravity="center"
+
                     android:fontFamily="sans-serif"
-                    android:text="George Clooney once gave 14 friends $1 million each -- in cash"
                     android:textColor="@color/black"
-                    android:textSize="17dp" />
+                    android:text="Boss durmiendo encima del lomo de Cuchi"
+                    android:textSize="17dp"/>
 
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-
-
+                        android:layout_width="42dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
                         android:background="@drawable/cnn"
-                        android:padding="50dp" />
+                        android:padding="50dp"/>
 
+
+                    <TextView
+                        android:layout_width="332dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:paddingLeft="5dp"
+
+                        android:text="Solo fue dañado el orgullo de Cuchi en esta foto ®"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
 
                 </LinearLayout>
 
@@ -72,7 +80,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="25dp" />
+                android:layout_height="8dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
